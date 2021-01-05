@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{B2844138-2FFF-2903-7705-C6FB69C5648F}</ProjectGuid>
+    <ProjectGuid>{6F1A7361-5DEA-2628-1565-0BC1D6E9D4B9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -64,11 +64,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\XnodeTest\Editor\AssetNodeEditor.cs" />
-    <Compile Include="Assets\XnodeTest\Editor\ChatNodeEditor.cs" />
-    <Compile Include="Assets\XnodeTest\Editor\DialogueGrpahEditor.cs" />
-    <Compile Include="Assets\XnodeTest\Editor\OptionNodeEditor.cs" />
-    <Compile Include="Assets\XnodeTest\Editor\StartNodeEditor.cs" />
+    <Compile Include="Assets\StoryEditor\Editor\AssetNodeEditor.cs" />
+    <Compile Include="Assets\StoryEditor\Editor\ChatNodeEditor.cs" />
+    <Compile Include="Assets\StoryEditor\Editor\DialogueGrpahEditor.cs" />
+    <Compile Include="Assets\StoryEditor\Editor\OptionNodeEditor.cs" />
+    <Compile Include="Assets\StoryEditor\Editor\StartNodeEditor.cs" />
     <Reference Include="UnityEngine">
       <HintPath>D:/UnityEditorVersion/2019.4/2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -268,31 +268,31 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="DOTween">
-      <HintPath>F:/UnityProject2/Visual Story Editor/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
+      <HintPath>F:/GitProject/Story Editor2/StoryEditor/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
     </Reference>
     <Reference Include="DOTweenEditor">
-      <HintPath>F:/UnityProject2/Visual Story Editor/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
+      <HintPath>F:/GitProject/Story Editor2/StoryEditor/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
     </Reference>
     <Reference Include="Sirenix.OdinInspector.Attributes">
-      <HintPath>F:/UnityProject2/Visual Story Editor/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.dll</HintPath>
+      <HintPath>F:/GitProject/Story Editor2/StoryEditor/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.dll</HintPath>
     </Reference>
     <Reference Include="Sirenix.OdinInspector.Editor">
-      <HintPath>F:/UnityProject2/Visual Story Editor/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.dll</HintPath>
+      <HintPath>F:/GitProject/Story Editor2/StoryEditor/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Sirenix.Serialization.Config">
-      <HintPath>F:/UnityProject2/Visual Story Editor/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.dll</HintPath>
+      <HintPath>F:/GitProject/Story Editor2/StoryEditor/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.dll</HintPath>
     </Reference>
     <Reference Include="Sirenix.Serialization">
-      <HintPath>F:/UnityProject2/Visual Story Editor/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.dll</HintPath>
+      <HintPath>F:/GitProject/Story Editor2/StoryEditor/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Sirenix.Utilities">
-      <HintPath>F:/UnityProject2/Visual Story Editor/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.dll</HintPath>
+      <HintPath>F:/GitProject/Story Editor2/StoryEditor/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.dll</HintPath>
     </Reference>
     <Reference Include="Sirenix.Utilities.Editor">
-      <HintPath>F:/UnityProject2/Visual Story Editor/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.dll</HintPath>
+      <HintPath>F:/GitProject/Story Editor2/StoryEditor/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>F:/UnityProject2/Visual Story Editor/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>F:/GitProject/Story Editor2/StoryEditor/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>D:/UnityEditorVersion/2019.4/2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -649,116 +649,116 @@
       <HintPath>D:/UnityEditorVersion/2019.4/2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>F:/UnityProject2/Visual Story Editor/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>F:/GitProject/Story Editor2/StoryEditor/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>F:/UnityProject2/Visual Story Editor/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>F:/GitProject/Story Editor2/StoryEditor/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>F:/UnityProject2/Visual Story Editor/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>F:/GitProject/Story Editor2/StoryEditor/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Runtime">
-      <HintPath>F:/UnityProject2/Visual Story Editor/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
+      <HintPath>F:/GitProject/Story Editor2/StoryEditor/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.PixelPerfect.Editor">
-      <HintPath>F:/UnityProject2/Visual Story Editor/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
+      <HintPath>F:/GitProject/Story Editor2/StoryEditor/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>F:/UnityProject2/Visual Story Editor/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>F:/GitProject/Story Editor2/StoryEditor/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Editor">
-      <HintPath>F:/UnityProject2/Visual Story Editor/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
+      <HintPath>F:/GitProject/Story Editor2/StoryEditor/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>F:/UnityProject2/Visual Story Editor/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>F:/GitProject/Story Editor2/StoryEditor/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Path.Editor">
-      <HintPath>F:/UnityProject2/Visual Story Editor/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
+      <HintPath>F:/GitProject/Story Editor2/StoryEditor/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>F:/UnityProject2/Visual Story Editor/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>F:/GitProject/Story Editor2/StoryEditor/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>F:/UnityProject2/Visual Story Editor/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>F:/GitProject/Story Editor2/StoryEditor/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Triangle.Runtime">
-      <HintPath>F:/UnityProject2/Visual Story Editor/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
+      <HintPath>F:/GitProject/Story Editor2/StoryEditor/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="PsdPlugin">
-      <HintPath>F:/UnityProject2/Visual Story Editor/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
+      <HintPath>F:/GitProject/Story Editor2/StoryEditor/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>F:/UnityProject2/Visual Story Editor/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>F:/GitProject/Story Editor2/StoryEditor/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>F:/UnityProject2/Visual Story Editor/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>F:/GitProject/Story Editor2/StoryEditor/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
-      <HintPath>F:/UnityProject2/Visual Story Editor/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+      <HintPath>F:/GitProject/Story Editor2/StoryEditor/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Psdimporter.Editor">
-      <HintPath>F:/UnityProject2/Visual Story Editor/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
+      <HintPath>F:/GitProject/Story Editor2/StoryEditor/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEngineBridge.001">
-      <HintPath>F:/UnityProject2/Visual Story Editor/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
+      <HintPath>F:/GitProject/Story Editor2/StoryEditor/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>F:/UnityProject2/Visual Story Editor/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>F:/GitProject/Story Editor2/StoryEditor/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Common.Runtime">
-      <HintPath>F:/UnityProject2/Visual Story Editor/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
+      <HintPath>F:/GitProject/Story Editor2/StoryEditor/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>F:/UnityProject2/Visual Story Editor/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>F:/GitProject/Story Editor2/StoryEditor/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Runtime">
-      <HintPath>F:/UnityProject2/Visual Story Editor/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
+      <HintPath>F:/GitProject/Story Editor2/StoryEditor/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.PixelPerfect">
-      <HintPath>F:/UnityProject2/Visual Story Editor/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
+      <HintPath>F:/GitProject/Story Editor2/StoryEditor/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Editor">
-      <HintPath>F:/UnityProject2/Visual Story Editor/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
+      <HintPath>F:/GitProject/Story Editor2/StoryEditor/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
-      <HintPath>F:/UnityProject2/Visual Story Editor/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+      <HintPath>F:/GitProject/Story Editor2/StoryEditor/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>F:/UnityProject2/Visual Story Editor/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>F:/GitProject/Story Editor2/StoryEditor/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Common.Editor">
-      <HintPath>F:/UnityProject2/Visual Story Editor/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
+      <HintPath>F:/GitProject/Story Editor2/StoryEditor/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEditorBridge.001">
-      <HintPath>F:/UnityProject2/Visual Story Editor/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
+      <HintPath>F:/GitProject/Story Editor2/StoryEditor/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>F:/UnityProject2/Visual Story Editor/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>F:/GitProject/Story Editor2/StoryEditor/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{21F3E6A9-8ECF-6BA2-4829-AD2DA8BE2994}</Project>
+      <Project>{A47DEBFC-EB05-1086-ECEE-6B3D019FC2CA}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{E1129D42-88D6-E9A3-7798-89292A544BB6}</Project>
+      <Project>{8969CE56-E767-05C8-034B-71D9BAC46CAF}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
     <ProjectReference Include="Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj">
-      <Project>{E7982FDE-684B-2C74-D0F3-2F6F962C6170}</Project>
+      <Project>{377ED220-D712-1E60-8665-2B0741DB162C}</Project>
       <Name>Sirenix.OdinInspector.CompatibilityLayer.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Sirenix.OdinInspector.CompatibilityLayer.csproj">
-      <Project>{5B48E486-C205-C16E-6810-69DEEEF0BE14}</Project>
+      <Project>{7C7BC182-3A1B-E85D-8CC2-1A8F2B009521}</Project>
       <Name>Sirenix.OdinInspector.CompatibilityLayer</Name>
     </ProjectReference>
     <ProjectReference Include="XNode.csproj">
-      <Project>{0FB8F3CE-1ED3-5838-554B-2BD9E5F4AD3E}</Project>
+      <Project>{1638762C-5CF6-1E35-0160-24FEB3649BAE}</Project>
       <Name>XNode</Name>
     </ProjectReference>
     <ProjectReference Include="XNodeEditor.csproj">
-      <Project>{F93AD15C-03DB-804C-8245-7B20F2155960}</Project>
+      <Project>{258F8E9B-E58F-4478-10A8-74A91A3B48D1}</Project>
       <Name>XNodeEditor</Name>
     </ProjectReference>
   </ItemGroup>
