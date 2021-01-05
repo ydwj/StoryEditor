@@ -64,7 +64,7 @@ MonoBehaviour:
   ports:
     keys: []
     values: []
-  diaAsset: {fileID: 0}
+  diaAsset: {fileID: 11400000, guid: c90df9218efa0684dad2cf176c9d82a8, type: 2}
 --- !u!114 &2274947708571280269
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -165,8 +165,8 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 1
-  IsMax: 0
-  lastIsMax: 0
+  IsMax: 1
+  lastIsMax: 1
   chatslist:
   - name: 0
     emoji: {fileID: 8628951121522814276, guid: 84356da12a8249c499e709f4475f15d8, type: 3}
