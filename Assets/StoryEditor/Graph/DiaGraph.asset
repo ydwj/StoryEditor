@@ -103,6 +103,8 @@ MonoBehaviour:
   - "\u5E15\u74E6"
   - "\u7535\u6B21"
   - "\u5CB8\u8FB9"
+  - "\u6492\u65E6\u6CD5"
+  - "\u53D1\u7684\u6C99\u53D1\u4E0A"
 --- !u!114 &-4879518912169183427
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -116,7 +118,7 @@ MonoBehaviour:
   m_Name: Chat
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1272, y: -56}
+  position: {x: 1224, y: -40}
   ports:
     keys:
     - Input
@@ -155,6 +157,8 @@ MonoBehaviour:
   - "\u5E15\u74E6"
   - "\u7535\u6B21"
   - "\u5CB8\u8FB9"
+  - "\u6492\u65E6\u6CD5"
+  - "\u53D1\u7684\u6C99\u53D1\u4E0A"
 --- !u!114 &-1530946899342798180
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -168,7 +172,7 @@ MonoBehaviour:
   m_Name: Chat
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1288, y: 312}
+  position: {x: 1224, y: 296}
   ports:
     keys:
     - Input
@@ -239,7 +243,7 @@ MonoBehaviour:
   m_Name: Option
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 920, y: 8}
+  position: {x: 888, y: 40}
   ports:
     keys:
     - Input
@@ -324,7 +328,7 @@ MonoBehaviour:
   m_Name: Chat
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1288, y: 152}
+  position: {x: 1224, y: 152}
   ports:
     keys:
     - Input

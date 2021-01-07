@@ -19,3 +19,7 @@ MonoBehaviour:
     Voice: {fileID: 0}
   - Name: "\u5CB8\u8FB9"
     Voice: {fileID: 0}
+  - Name: "\u6492\u65E6\u6CD5"
+    Voice: {fileID: 0}
+  - Name: "\u53D1\u7684\u6C99\u53D1\u4E0A"
+    Voice: {fileID: 0}
