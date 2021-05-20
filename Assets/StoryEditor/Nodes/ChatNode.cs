@@ -44,10 +44,13 @@ namespace DialogueEditor
 	[NodeTint(73, 236, 209)]//Node颜色
 	public class ChatNode : Node		// 块
 	{
-		
+
 		//public int ChatNodeID;
 
+	
+
 		public bool IsMax = true;
+
 		public bool lastIsMax = true;
 		//如何让其连起来，这里需要涉及到其中的两个特性，一个输出端，一个输入端
 		[Input]public Empty Input;
@@ -193,16 +196,13 @@ namespace DialogueEditor
 	[Serializable]
 	public class SingleChatClass
 	{
-
-		//Selection selection;
 		public int name;
 		
 		public Sprite emoji;
 
 		public ChatType chatType;
-
-		//[TextArea]
-		public string content;//话的内容
+		
+		public string content;
 
 	}
 }

@@ -9,9 +9,7 @@ namespace DialogueEditor
     [CreateAssetMenu(fileName = "DiaGraph")]
     public class DialogueGraph : NodeGraph
     {
-      
 
-    
 
         public Node MoveNext(out Current current)
         {

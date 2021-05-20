@@ -365,9 +365,6 @@ namespace  DialogueEditor
                     chatNode.IsMax = true;
                 }
             }
-            
-
-
 
             #region Old
             //GUI.color = Color.white;

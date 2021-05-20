@@ -121,6 +121,76 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &485771898
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 485771901}
+  - component: {fileID: 485771900}
+  - component: {fileID: 485771899}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!95 &485771899
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 485771898}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!320 &485771900
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 485771898}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: a5d90a0e15bc410408afa5d01651882b, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: -2947839264271644104, guid: a5d90a0e15bc410408afa5d01651882b, type: 2}
+    value: {fileID: 485771899}
+  m_ExposedReferences:
+    m_References: []
+--- !u!4 &485771901
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 485771898}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 802.42035, y: 346.8519, z: -49.875}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1437,112 +1507,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   serializationData:
-    SerializedFormat: 2
+    SerializedFormat: 0
     SerializedBytes: 
     ReferencedUnityObjects:
     - {fileID: 7232748156649367863}
     - {fileID: 0}
-    SerializedBytesString: 
+    SerializedBytesString: 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
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
-    SerializationNodes:
-    - Name: Methods
-      Entry: 7
-      Data: 0|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[UnityEngine.Events.UnityEvent,
-        UnityEngine.CoreModule]], mscorlib
-    - Name: comparer
-      Entry: 7
-      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
-        mscorlib]], mscorlib
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 12
-      Data: 1
-    - Name: 
-      Entry: 7
-      Data: 
-    - Name: $k
-      Entry: 1
-      Data: GoNextGraph
-    - Name: $v
-      Entry: 7
-      Data: 2|UnityEngine.Events.UnityEvent, UnityEngine.CoreModule
-    - Name: m_PersistentCalls
-      Entry: 7
-      Data: 3|UnityEngine.Events.PersistentCallGroup, UnityEngine.CoreModule
-    - Name: m_Calls
-      Entry: 7
-      Data: 4|System.Collections.Generic.List`1[[UnityEngine.Events.PersistentCall,
-        UnityEngine.CoreModule]], mscorlib
-    - Name: 
-      Entry: 12
-      Data: 1
-    - Name: 
-      Entry: 7
-      Data: 5|UnityEngine.Events.PersistentCall, UnityEngine.CoreModule
-    - Name: m_Target
-      Entry: 10
-      Data: 0
-    - Name: m_MethodName
-      Entry: 1
-      Data: GoNextChapter
-    - Name: m_Mode
-      Entry: 3
-      Data: 1
-    - Name: m_Arguments
-      Entry: 7
-      Data: 6|UnityEngine.Events.ArgumentCache, UnityEngine.CoreModule
-    - Name: m_ObjectArgument
-      Entry: 10
-      Data: 1
-    - Name: m_ObjectArgumentAssemblyTypeName
-      Entry: 1
-      Data: UnityEngine.Object, UnityEngine
-    - Name: m_IntArgument
-      Entry: 3
-      Data: 0
-    - Name: m_FloatArgument
-      Entry: 4
-      Data: 0
-    - Name: m_StringArgument
-      Entry: 1
-      Data: 
-    - Name: m_BoolArgument
-      Entry: 5
-      Data: false
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: m_CallState
-      Entry: 3
-      Data: 2
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
+    SerializationNodes: []
   dialoguePanel: {fileID: 5846730345577972274}
   TextRoot: {fileID: 5846730345887527665}
   personimage: {fileID: 5846730345150345643}
