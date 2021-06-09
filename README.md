@@ -4,6 +4,11 @@
 
 -You can also combine the Story Editor and the Unity Timeline system to complete rich cutscenes.
 
+
+![sss2](https://user-images.githubusercontent.com/48650797/121323496-72718980-c942-11eb-896a-87e4ad6f4d10.jpg)
+![sss1](https://user-images.githubusercontent.com/48650797/121323510-756c7a00-c942-11eb-8731-500813559964.png)
+
+
 ### Use Note
 
 - #### 1. Select ChatNode and press Ctrl+Z to go back to the previous step, Graph will crash unrecoverable directly!
